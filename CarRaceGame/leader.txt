@@ -1,0 +1,36 @@
+if (pictureBox1.Left > pictureBox2.Left)
+            {
+                namePlateLbl.Text = "Car1 Took To Lead";
+            }
+            else if (pictureBox1.Left < pictureBox2.Left)
+            {
+                namePlateLbl.Text = "Car2 Took To Lead";
+            }
+            else if (pictureBox2.Left > pictureBox3.Left)
+            {
+                namePlateLbl.Text = "Car2 Took To Lead";
+            }
+            else if (pictureBox2.Left < pictureBox3.Left)
+            {
+                namePlateLbl.Text = "Car3 Took To Lead";
+            }
+            else if (pictureBox1.Left > pictureBox3.Left)
+            {
+                namePlateLbl.Text = "Car1 Took To Lead";
+            }
+            else if (pictureBox1.Left < pictureBox3.Left)
+            {
+                namePlateLbl.Text = "Car3 Took To Lead";
+            }
+            else if (pictureBox1.Left == pictureBox2.Left)
+            {
+                namePlateLbl.Text = "";
+            }
+            else if (pictureBox1.Left == pictureBox3.Left)
+            {
+                namePlateLbl.Text = "";
+            }
+            else if (pictureBox2.Left == pictureBox3.Left)
+            {
+                namePlateLbl.Text = "";
+            }
